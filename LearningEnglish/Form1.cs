@@ -177,7 +177,7 @@ namespace LearningEnglish
             }
             else
             {
-                MessageBox.Show("Таке слово вже існує!");
+                MessageBox.Show("Таке слово вже існує*!");
             }
             
         }
