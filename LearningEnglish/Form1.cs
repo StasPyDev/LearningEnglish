@@ -134,7 +134,7 @@ namespace LearningEnglish
             if (command.ExecuteNonQuery() == 1)
             {
                 MessageBox.Show("Add new word");
-                textBox_AddWordEN.Text = "";
+                textBox_AddWordEN.Text = "1";
                 textBox_AddTranslateUA.Text = "";
             }
             dataBase.closeConnection();
